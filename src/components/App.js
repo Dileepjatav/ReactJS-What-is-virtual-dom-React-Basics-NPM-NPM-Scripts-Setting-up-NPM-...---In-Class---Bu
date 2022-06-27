@@ -9,7 +9,7 @@ function App() {
 
   
 
-  const run=()=>{
+  const click=()=>{
     
     setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");
    
@@ -19,7 +19,7 @@ function App() {
     <div id="main">
       <p id="para">{data}</p>
       
-      <button id="click" onClick={run}>Para</button>
+      <button id="click" onClick={click}>Para</button>
     </div>
   );
 }
