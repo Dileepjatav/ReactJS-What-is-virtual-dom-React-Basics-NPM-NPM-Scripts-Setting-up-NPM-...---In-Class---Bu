@@ -8,6 +8,8 @@ function App() {
   const click=()=>{
     // setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
     // let p=document.querySelector('p');
+    let p=document.querySelector('p');
+    p.innerHTML="Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
     
      
     
