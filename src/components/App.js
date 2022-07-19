@@ -3,10 +3,11 @@ import "./../styles/App.css";
 
 
 function App() {
-  const [data, setData ] = useState("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");
-  let x=true;
+  const [data, setData ] = useState();
+  let x=false;
 
   const click=()=>{
+    setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
     
    if(x){
     let p=document.createElement('p');
@@ -25,7 +26,7 @@ function App() {
   return (
     <div id="main">
       
-      {/* <p id="para">{data}</p> */}
+      <p>{data}</p>
       <button id="click" onClick={click}>Para</button>
     </div>
   );
