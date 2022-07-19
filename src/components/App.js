@@ -12,7 +12,7 @@ function App() {
   
   const click=()=>{
     
-    // setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
+    
     // let p=document.querySelector('p');
 
     // if(x){
@@ -27,6 +27,7 @@ function App() {
 
     let p=document.querySelector('p')
     p.setAttribute('id','para');
+    setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
     
      
     
