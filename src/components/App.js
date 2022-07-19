@@ -3,13 +3,12 @@ import "./../styles/App.css";
 
 
 function App() {
-  const [data, setData ] = useState();
+  // const [data, setData ] = useState();
   
   const click=()=>{
-    setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
-
-    let p=document.querySelector('p');
-    // p.setAttribute('id','para')
+    // setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
+    // let p=document.querySelector('p');
+    
      
     
   }
@@ -17,7 +16,7 @@ function App() {
   return (
     <div id="main">
       
-      <p id="para">{data}</p>
+      <p id="para"></p>
       <button id="click" onClick={click}>Para</button>
     </div>
   );
