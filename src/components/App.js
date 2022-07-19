@@ -9,15 +9,15 @@ function App() {
     setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
 
     let p=document.querySelector('p');
-    p.setAttribute('id','para')
-    
+    // p.setAttribute('id','para')
+     
     
   }
   
   return (
     <div id="main">
       
-      <p>{data}</p>
+      <p id="para">{data}</p>
       <button id="click" onClick={click}>Para</button>
     </div>
   );
