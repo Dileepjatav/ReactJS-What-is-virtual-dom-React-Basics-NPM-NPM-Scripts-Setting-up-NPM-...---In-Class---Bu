@@ -24,9 +24,10 @@ function App() {
 
     }
     let p=document.querySelector('#para')
-    
 
-    p.innerHTML="Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
+
+    
+    p.textContent="Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
     
      
     
