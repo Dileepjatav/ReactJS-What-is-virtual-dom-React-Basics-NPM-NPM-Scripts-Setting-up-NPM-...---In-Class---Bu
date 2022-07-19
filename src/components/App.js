@@ -15,18 +15,16 @@ function App() {
     
     // let p=document.querySelector('p');
 
-    // if(x){
-    //   let div=document.querySelector('#main')
-    //   let p=document.createElement('p')
-    //   p.setAttribute('id','para');
-    //   div.insertBefore(p,div.children[0])
-    //   x=false
+    if(x){
+      let div=document.querySelector('#main')
+      let p=document.createElement('p')
+      p.setAttribute('id','para');
+      div.insertBefore(p,div.children[0])
+      x=false
 
-    // }
-    // let p=document.querySelector('#para')
+    }
+    let p=document.querySelector('#para')
 
-    let p=document.querySelector('p')
-    p.setAttribute('id','para');
     setData("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
     
      
@@ -35,8 +33,6 @@ function App() {
   
   return (
     <div id="main">
-      
-      <p>{data}</p>
       <button id="click" onClick={click}>Para</button>
     </div>
   );
